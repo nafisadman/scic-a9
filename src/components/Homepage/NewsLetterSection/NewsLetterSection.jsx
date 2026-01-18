@@ -8,11 +8,12 @@ export default function NewsletterSection() {
           {/* Left side – subscription form */}
           <div className="max-w-xl lg:max-w-lg">
             <h2 className="text-4xl font-semibold tracking-tight text-white">
-              Subscribe to our newsletter
+              Stay updated with our latest deals
             </h2>
             <p className="mt-4 text-lg text-gray-300">
-              Nostrud amet eu ullamco nisi aute in ad minim nostrud adipisicing
-              velit quis. Duis tempor incididunt dolore.
+              Get exclusive offers, new arrivals, and product highlights
+              delivered straight to your inbox. We respect your privacy – no
+              spam, only the best Bangladeshi‑made finds.
             </p>
             <div className="mt-6 flex max-w-md gap-x-4">
               <label htmlFor="email-address" className="sr-only">
@@ -57,11 +58,11 @@ export default function NewsletterSection() {
                 </svg>
               </div>
               <dt className="mt-4 text-base font-semibold text-white">
-                Weekly articles
+                Weekly product highlights
               </dt>
               <dd className="mt-2 text-base/7 text-gray-400">
-                Non laboris consequat cupidatat laborum magna. Eiusmod non
-                irure cupidatat duis commodo amet.
+                Curated picks of new arrivals, best‑selling items, and limited‑time
+                discounts—all priced in ৳ BDT.
               </dd>
             </div>
 
@@ -84,11 +85,11 @@ export default function NewsletterSection() {
                 </svg>
               </div>
               <dt className="mt-4 text-base font-semibold text-white">
-                No spam
+                No spam, ever
               </dt>
               <dd className="mt-2 text-base/7 text-gray-400">
-                Officia excepteur ullamco ut sint duis proident non adipisicing.
-                Voluptate incididunt anim.
+                We only send you the newsletters you asked for – no promotions
+                you didn’t sign up for.
               </dd>
             </div>
           </dl>

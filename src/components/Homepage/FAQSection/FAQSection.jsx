@@ -4,34 +4,34 @@ import { MinusSmallIcon, PlusSmallIcon } from "@heroicons/react/24/outline";
 
 const faqs = [
   {
-    question: "What's the best thing about Switzerland?",
+    question: "How long does delivery take within Bangladesh?",
     answer:
-      "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+      "Standard shipping to any address in Bangladesh takes 3 to 5 business days. Express options are available at checkout for delivery within 1 to 2 days.",
   },
   {
-    question: "How do you make holy water?",
+    question: "What payment methods do you accept?",
     answer:
-      "You boil the hell out of it. Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam aut tempora vitae odio inventore fuga aliquam nostrum quod porro. Delectus quia facere id sequi expedita natus.",
+      "We accept Bangladeshi debit/credit cards (Visa, MasterCard, Amex), bKash, Nagad, Rocket, and cash on delivery for orders up to ৳15,000.",
   },
   {
-    question: "What do you call someone with no body and no nose?",
+    question: "Can I return or exchange a product?",
     answer:
-      "Nobody knows. Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, voluptas ipsa quia excepturi, quibusdam natus exercitationem sapiente tempore labore voluptatem.",
+      "Yes. Items can be returned or exchanged within 30 days of receipt, provided they are unused, in original packaging, and accompanied by the order invoice.",
   },
   {
-    question: "Why do you never see elephants hiding in trees?",
+    question: "Do you ship internationally?",
     answer:
-      "Because they're so good at it. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+      "Currently we ship only within Bangladesh. International shipping may be added in the future—stay tuned to our newsletter for updates.",
   },
   {
-    question: "Why can't you hear a pterodactyl go to the bathroom?",
+    question: "How do I track my order?",
     answer:
-      "Because the pee is silent. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, quas voluptatibus ex culpa ipsum, aspernatur blanditiis fugiat ullam magnam suscipit deserunt illum natus facilis atque vero consequatur! Quisquam, debitis error.",
+      "After your order is processed, you’ll receive a tracking number via email and SMS. Use that number on our “Track Order” page to see real‑time status.",
   },
   {
-    question: "Why did the invisible man turn down the job offer?",
+    question: "Are the products authentic and locally sourced?",
     answer:
-      "He couldn't see himself doing it. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet perspiciatis officiis corrupti tenetur. Temporibus ut voluptatibus, perferendis sed unde rerum deserunt eius.",
+      "All items are **genuine, sourced from verified Bangladeshi manufacturers** or trusted international partners. We guarantee quality and provide a certificate of authenticity for premium goods.",
   },
 ];
 
@@ -53,9 +53,7 @@ export default function FaqAccordion() {
               >
                 <dt>
                   <DisclosureButton className="group flex w-full items-start justify-between text-left text-white">
-                    <span className="text-base/7 font-semibold">
-                      {faq.question}
-                    </span>
+                    <span className="text-base/7 font-semibold">{faq.question}</span>
                     <span className="ml-6 flex h-7 items-center">
                       <PlusSmallIcon
                         aria-hidden="true"
@@ -69,10 +67,7 @@ export default function FaqAccordion() {
                   </DisclosureButton>
                 </dt>
 
-                <DisclosurePanel
-                  as="dd"
-                  className="mt-2 pr-12"
-                >
+                <DisclosurePanel as="dd" className="mt-2 pr-12">
                   <p className="text-base/7 text-gray-400">{faq.answer}</p>
                 </DisclosurePanel>
               </Disclosure>

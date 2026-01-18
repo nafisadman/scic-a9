@@ -8,7 +8,7 @@ export default function TestimonialSection() {
       <div className="absolute inset-y-0 right-1/2 -z-10 mr-16 w-[200%] origin-bottom-left skew-x-[-30deg] bg-gray-900 shadow-xl ring-1 shadow-indigo-500/5 ring-white/5 sm:mr-28 lg:mr-0 xl:mr-16 xl:origin-center" />
 
       <div className="mx-auto max-w-2xl lg:max-w-4xl text-center">
-        {/* Logo */}
+        {/* Logo – keep unchanged */}
         <img
           src="https://tailwindcss.com/plus-assets/img/logos/workcation-logo-indigo-400.svg"
           alt="Workcation logo"
@@ -18,13 +18,15 @@ export default function TestimonialSection() {
         {/* Quote */}
         <figure className="mt-10">
           <blockquote className="text-xl/8 font-semibold text-white sm:text-2xl/9">
-            “Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo expedita
-            voluptas culpa sapiente alias molestiae. Numquam corrupti in laborum
-            sed rerum et corporis.”
+            “I bought the Bengal Bamboo Chair for ৳ 4,950 and it arrived
+            within two days. The quality exceeds the price, and the customer
+            service helped me track the shipment every step of the way. I’ll
+            definitely shop here again.”
           </blockquote>
 
           {/* Author */}
           <figcaption className="mt-10">
+            {/* Photo – keep unchanged */}
             <img
               src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
               alt="Judith Black"
@@ -41,7 +43,7 @@ export default function TestimonialSection() {
               >
                 <circle cx={1} cy={1} r={1} />
               </svg>
-              <div className="text-gray-400">CEO of Workcation</div>
+              <div className="text-gray-400">Founder, Dhaka Home Décor</div>
             </div>
           </figcaption>
         </figure>

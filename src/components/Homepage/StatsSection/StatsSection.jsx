@@ -8,20 +8,20 @@ export default function StatsSection() {
           {/* Transactions */}
           <div className="mx-auto flex max-w-xs flex-col gap-y-4">
             <dt className="text-base/7 text-gray-400">
-              Transactions every 24 hours
+              Transactions per day
             </dt>
             <dd className="order-first text-3xl font-semibold tracking-tight text-white sm:text-5xl">
-              44 million
+              1.2 million
             </dd>
           </div>
 
-          {/* Assets under holding */}
+          {/* Gross merchandise value */}
           <div className="mx-auto flex max-w-xs flex-col gap-y-4">
             <dt className="text-base/7 text-gray-400">
-              Assets under holding
+              Gross Merchandise Value (GMV)
             </dt>
             <dd className="order-first text-3xl font-semibold tracking-tight text-white sm:text-5xl">
-              $119 trillion
+              ৳ 3.8 billion
             </dd>
           </div>
 
@@ -29,7 +29,7 @@ export default function StatsSection() {
           <div className="mx-auto flex max-w-xs flex-col gap-y-4">
             <dt className="text-base/7 text-gray-400">New users annually</dt>
             <dd className="order-first text-3xl font-semibold tracking-tight text-white sm:text-5xl">
-              46,000
+              850 k
             </dd>
           </div>
         </dl>
