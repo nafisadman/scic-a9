@@ -11,15 +11,13 @@ import ContactSection from "@/components/Homepage/ContactSection/ContactSection"
 export default function Home() {
   return (
     <div>
-      <LoginButton />
-      <TestimonialSection />
-      <NewsLetterSection />
-      <StatsSection />
-      <SpecialOfferSection />
-      <FAQSection />
       <SectionsHeaderWithStats />
       <TrustedLogos />
-      <ContactSection />
+      <StatsSection />
+      <TestimonialSection />
+      <NewsLetterSection />
+      <FAQSection />
+      {/* <ContactSection /> */}
     </div>
   );
 }
