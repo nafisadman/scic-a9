@@ -17,7 +17,8 @@ export default function Home() {
       <TestimonialSection />
       <NewsLetterSection />
       <FAQSection />
-      {/* <ContactSection /> */}
+      {/* Causes issue in Navbar */}
+      {/* <ContactSection />  */}
     </div>
   );
 }

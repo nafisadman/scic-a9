@@ -76,9 +76,11 @@ export default function Example() {
                 </Link>
               </div>
               <div className="py-6">
-                <Link href="/login" className="-mx-3 block rounded-lg px-3 py-2.5 text-base/7 font-semibold text-white hover:bg-white/5">
-                  Login
-                </Link>
+                {!document.cookie && (
+                  <Link href="/login" className="-mx-3 block rounded-lg px-3 py-2.5 text-base/7 font-semibold text-white hover:bg-white/5">
+                    Login
+                  </Link>
+                )}
               </div>
             </div>
           </div>

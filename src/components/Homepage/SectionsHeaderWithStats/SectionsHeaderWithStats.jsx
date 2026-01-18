@@ -1,16 +1,17 @@
 import React from "react";
 
 const links = [
-  { name: "Open roles", href: "#" },
-  { name: "Internship program", href: "#" },
-  { name: "Our values", href: "#" },
-  { name: "Meet our leadership", href: "#" },
+  { name: "Shop All Products", href: "/products" },
+  { name: "New Arrivals", href: "/products/new" },
+  { name: "Best Sellers", href: "/products/best-sellers" },
+  { name: "Customer Support", href: "/support" },
 ];
+
 const stats = [
-  { name: "Offices worldwide", value: "12" },
-  { name: "Full-time colleagues", value: "300+" },
-  { name: "Hours per week", value: "40" },
-  { name: "Paid time off", value: "Unlimited" },
+  { name: "Products Available", value: "1 200+" },
+  { name: "Happy Customers", value: "45 000+" },
+  { name: "Orders Fulfilled", value: "120 k+" },
+  { name: "Free Shipping", value: "Worldwide" },
 ];
 
 export default function SectionsHeaderWithStats() {
@@ -57,11 +58,10 @@ export default function SectionsHeaderWithStats() {
         {/* Header text */}
         <div className="max-w-2xl">
           <h2 className="text-4xl font-semibold tracking-tight sm:text-5xl lg:text-7xl">
-            Work with us
+            Shop with Confidence
           </h2>
           <p className="mt-4 text-base text-gray-300 sm:text-lg lg:text-xl">
-            Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat
-            commodo. Elit sunt amet fugiat veniam occaecat fugiat.
+            Discover quality products, fast delivery, and a hassle‑free return policy.
           </p>
         </div>
 
